@@ -75,10 +75,10 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	 Dos Script v.1 http://www.canyalcin.com/
+	print (''' \033[92m r41n Dos Script v.1 https://discord.gg/UybeVq66hF
 	It is the end user's responsibility to obey all applicable laws.
 	It is just for server testing script. Your ip is visible. \n
-	usage : python3 hammer.py [-s] [-p] [-t]
+	usage : python3 r41n.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
 	-p : port default 80
@@ -91,7 +91,7 @@ def get_parameters():
 	global port
 	global thr
 	global item
-	optp = OptionParser(add_help_option=False,epilog="Hammers")
+	optp = OptionParser(add_help_option=False,epilog="1919")
 	optp.add_option("-q","--quiet", help="set logging to ERROR",action="store_const", dest="loglevel",const=logging.ERROR, default=logging.INFO)
 	optp.add_option("-s","--server", dest="host",help="attack to server ip -s ip")
 	optp.add_option("-p","--port",type="int",dest="port",help="-p 80 default 80")
